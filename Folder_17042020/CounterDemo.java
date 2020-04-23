@@ -13,7 +13,7 @@ public class CounterDemo
   Counter c2 = new Counter( 10 );
   c2.increment();
   System.out.println( "Count of c2 = "+ c2.getCount() );
-  c2.increment( 20 );
+  c2.incrementDelta( 20 );
   System.out.println( "Count of c2 = "+ c2.getCount() );
   c2.reset();
   System.out.println( "Count of c2 = "+ c2.getCount() );
